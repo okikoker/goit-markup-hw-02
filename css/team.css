@@ -2,10 +2,11 @@
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  font-weight: 700;
   color: #2e2f42;
 }
 
-.team-item h3 {
+.team-info h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -13,7 +14,7 @@
   color: #2e2f42;
 }
 
-.team-item p {
+.team-info p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
