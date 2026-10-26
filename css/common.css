@@ -147,13 +147,9 @@ p {
   margin-bottom: 8px;
 }
 /* Перенесені стилі для Footer */
-.footer {
-  padding: 40px 20px;
-}
 
 .footer .logo {
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer p {
