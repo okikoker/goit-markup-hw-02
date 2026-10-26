@@ -51,3 +51,18 @@ p {
   gap: 10px;
   margin-left: 40px;
 }
+.hero {
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  margin: 0 auto 30px;
+  max-width: 496px;
+}
+
+.hero button {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+}
