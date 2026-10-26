@@ -1,6 +1,6 @@
 .hero {
   background-color: #2e2f42;
-  text-align: center; /* Ментор вимагає центрування заголовка */
+  text-align: center; /* Це центрує заголовок, як на фото */
 }
 
 .hero h1 {
@@ -19,7 +19,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer; /* Це залишаємо, це інтерактивність */
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

@@ -28,29 +28,6 @@ p {
   margin: 0;
 }
 
-.header {
-  padding: 24px 0 24px 20px;
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
-}
-
-.nav-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 30px;
-  margin-left: 40px;
-}
-
-.contacts-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-left: 40px;
-}
 .hero {
   padding: 50px 20px;
 }
@@ -60,11 +37,13 @@ p {
   max-width: 496px;
 }
 
+/* Ось тут ми притискаємо кнопку вліво */
 .hero button {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
-  display: inline-block;
+  display: block; /* Робимо блочною */
+  margin-right: auto; /* Відштовхуємо вліво */
 }
 
 .features {
