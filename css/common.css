@@ -27,3 +27,27 @@ h3,
 p {
   margin: 0;
 }
+/* --- Стилі для шапки (перенесені з header.css) --- */
+.header {
+  padding: 24px 0 24px 20px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 40px;
+}
