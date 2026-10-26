@@ -1,5 +1,5 @@
 .team {
-  background-color: #f4f4fd; /* Додали фон секції */
+  background-color: #f4f4fd;
 }
 
 .section-title {
@@ -8,7 +8,11 @@
   letter-spacing: 0.02em;
   font-weight: 700;
   color: #2e2f42;
-  text-align: center; /* Заголовок по центру */
+  text-align: center;
+}
+
+.team-item {
+  background-color: #ffffff; /* Ось додали білий фон для картки */
 }
 
 .team-name {
@@ -17,7 +21,7 @@
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
-  text-align: center; /* Ім'я по центру */
+  text-align: center;
 }
 
 .team-role {
@@ -25,5 +29,5 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center; /* Посада по центру */
+  text-align: center;
 }
