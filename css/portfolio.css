@@ -1,12 +1,13 @@
-.portfolio h2 {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   font-weight: 700;
   color: #2e2f42;
+  text-align: center; /* Додали центрування заголовка портфоліо */
 }
 
-.portfolio-info h3 {
+.portfolio-name {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -14,7 +15,7 @@
   color: #2e2f42;
 }
 
-.portfolio-info p {
+.portfolio-type {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

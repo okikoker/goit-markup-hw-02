@@ -1,22 +1,29 @@
-.team h2 {
+.team {
+  background-color: #f4f4fd; /* Додали фон секції */
+}
+
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   font-weight: 700;
   color: #2e2f42;
+  text-align: center; /* Заголовок по центру */
 }
 
-.team-info h3 {
+.team-name {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
+  text-align: center; /* Ім'я по центру */
 }
 
-.team-info p {
+.team-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center; /* Посада по центру */
 }
